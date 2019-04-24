@@ -8,7 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Important Dates:</h1>
+    <h1>Texas 2019</h1>
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Tuesday')">Tuesday</button>
+        <button class="tablinks" onclick="openCity(event, 'Wednesday')">Wednesday</button>
+        <button class="tablinks" onclick="openCity(event, 'Thursday')">Thursday</button>
+        <button class="tablinks" onclick="openCity(event, 'Friday')">Friday</button>
+        <button class="tablinks" onclick="openCity(event, 'Saturday')">Saturday</button>
+        <button class="tablinks" onclick="openCity(event, 'Sunday')">Sunday</button>
+        <button class="tablinks" onclick="openCity(event, 'Notes')" id = "defaultOpen">Notes</button>
+        <button class="tablinks" onclick="openCity(event, 'Photos')">Photos</button>
+
+
+    </div>
+
+
+    <!-- <h1>Important Days:</h1>
     <ul id = "Days">
         <li><a href="#Notes">Notes</a></li>
         <li><a href="#tuesday">5/21 - Tuesday</a></li>
@@ -16,72 +32,127 @@
         <li><a href="#thursday">5/23 - Thursday</a></li>
         <li><a href="#friday">5/24 - Friday</a></li>
         <li><a href="#saturday">5/25 - Saturday</a></li>
-        <li><a href="sunday">5/26 - Sunday</a></li>
-    </ul>
-    <h2><a href="#notes"></a> Notes: Things to do in Austin</h2>
-    <div id="austin">
-    Bbq franklin (must be there at 8am)!</br>
-    Salt lick just outside of austin </br>
-    Amy’s ice cream at the Arboretum closes midnight 12pm, austinville hwy 183 closes 10pm
+        <li><a href="#sunday">5/26 - Sunday</a></li>
+    </ul> -->
 
-    Dinner - Torchy’s tacos Whitestone </br>
-    Or Veracruz all natural north Austin 
+
+<!-- Tab content -->
+    <div id="Tuesday" id="demo" class="tabcontent">
+        <h3>Tuesday</h3>
+        Car rental: Budget Mini Van </br>
+        Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
     </div>
-    <h2>Note: Things to do in Dallas</h2>
-    <div id="dallas">
-    White rock lake </br>
-    Perot meusem </br>
-    Smoke (fancy BBQ)
     </div>
     
-    <div><a name="tuesday"></a>
-    </br>
-    <h2>Tuesday's plan</h2>
-    Car rental: Budget Mini Van </br>
-    Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
+    <div id="Wednesday" class="tabcontent">
+        <h3>Wednesday</h3>
+        Car rental: Budget Mini Van </br>
+        Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
+    </div>
+    
+    <div id="Thursday" class="tabcontent">
+        <h3>Thurs</h3>
+        Car rental: Budget Mini Van </br>
+        Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
     </div>
 
-    <div><a name="wednesday"></a>
-    </br>
-    <h2>Wednesday's plan</h2>
-    Car rental: Budget Mini Van </br>
-    Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
+    <div id="Friday" class="tabcontent">
+        <h3>Friday</h3>
+        Car rental: Budget Mini Van </br>
+        Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
+    </div>
+    
+    <div id="Saturday" class="tabcontent">
+        <h3>Wednesday</h3>
+        Car rental: Budget Mini Van </br>
+        Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
+    </div>
+    
+    <div id="Sunday" class="tabcontent">
+        <h3>Sunday</h3>
+        Car rental: Budget Mini Van </br>
+        Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
     </div>
 
-    <div><a name="thursday"></a>
-    </br>
-    <h2>Thursday's plan</h2>
-    Car rental: Budget Mini Van </br>
-    Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
+    <div id="Notes"  class="tabcontent">
+        <h2>Things to do in Austin</h2>
+        Bbq franklin (must be there at 8am)!</br>
+        Salt lick just outside of austin </br>
+        Amy’s ice cream at the Arboretum closes midnight 12pm, austinville hwy 183 closes 10pm
+        Dinner - Torchy’s tacos Whitestone </br>
+        Or Veracruz all natural north Austin</br>
+        <h2>Things to do in Dallas</h2>
+        White rock lake </br>
+        Perot meusem </br>
+        Smoke (fancy BBQ)
     </div>
 
-    <div><a name="friday"></a>
-    </br>
-    <h2>Friday's plan</h2>
-    Car rental: Budget Mini Van </br>
-    Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
-    </div>
+    <div id="Photos"  class="tabcontent">
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+        <div class="column nature">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+            <h4>Mountains</h4>
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+            <h4>Lights</h4>
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/nature.jpg" alt="Nature" style="width:100%">
+            <h4>Forest</h4>
+          </div>
+        </div>
+      
+        <div class="column cars">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/cars1.jpg" alt="Car" style="width:100%">
+            <h4>Retro</h4>
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/cars2.jpg" alt="Car" style="width:100%">
+            <h4>Fast</h4>
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/cars3.jpg" alt="Car" style="width:100%">
+            <h4>Classic</h4>
+          </div>
+        </div>
+      
+        <div class="column people">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/people1.jpg" alt="People" style="width:100%">
+            <h4>Girl</h4>
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/people2.jpg" alt="People" style="width:100%">
+            <h4>Man</h4>
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+            <img src="https://www.w3schools.com/w3images/people3.jpg" alt="People" style="width:100%">
+            <h4>Woman</h4>
+          </div>
+        </div>
+      <!-- END GRID -->
+      </div>
+        </div>
 
-    <div><a name="saturday"></a>
-    </br>
-    <h2>Saturday's plan</h2>
-    Car rental: Budget Mini Van </br>
-    Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
-    </div>
 
-    <div><a name="sunday"></a>
-    </br>
-    <h2>Sunday's plan</h2>
-    Car rental: Budget Mini Van </br>
-    Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
-    </div>
 
-    <div><a name="End"></a>
-    </br>
-    <h2>Sunday's plan</h2>
-    Car rental: Budget Mini Van </br>
-    Stay: Austin Hotel - TownePlace Suites by Marriott Austin North/Lakeline </br>
-    </div>
+    <script src="/Texas2019/script.js"></script>
     
 </body>
 </html>
